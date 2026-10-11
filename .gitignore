@@ -1,34 +1,16 @@
-# Compiled class file
+# build output
+target/
+out/
 *.class
 
-# Build output directories
-out/
-bin/
-build/
-target/
+# runtime data (transaction log)
+data/
 
-# Log files
-*.log
-
-# Package Files
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# Virtual machine crash logs
-hs_err_pid*
-replay_pid*
-
-# IDE & Editor files
+# IDEs
 .idea/
 *.iml
 .vscode/
 .classpath
 .project
 .settings/
-*.sublime-workspace
 .DS_Store
-Thumbs.db
